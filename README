@@ -1,0 +1,6 @@
+Simple .vim folder with vimrc and gvimrc config files for easy use on multiple machines
+
+To create symbolic links:
+	
+	ln -s {/path/to/file-name} {link-name}
+
