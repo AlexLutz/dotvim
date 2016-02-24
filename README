@@ -5,8 +5,15 @@ To clone repository:
 	git clone https://github.com/AlexLutz/dotvim.git ~/.vim
 
 To create symbolic links:
-	
-	ln -s {/path/to/file-name} {link-name}
+
 	ln -s ~/.vim/vimrc ~/.vimrc
 	ls -s ~/.vim/gvimrc ~/.gvimrc
 
+To initialize and update submodules:
+
+	git submodule init
+	git submodule update
+
+To upgrade all bundled plugins:
+
+	git submodule foreach git pull origin master
