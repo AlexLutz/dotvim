@@ -1,4 +1,7 @@
 execute pathogen#infect()
+let g:pathogen_disabled = []
+
+
 
 syntax on
 set t_Co=256
@@ -9,6 +12,7 @@ runtime macros/matchit.vim
 set ruler
 set encoding=utf-8
 set number
+filetype plugin on
 
 "keyboard mappings
 map <C-Tab> gt

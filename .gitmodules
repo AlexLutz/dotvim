@@ -4,3 +4,12 @@
 [submodule "bundle/scrollcolors"]
 	path = bundle/scrollcolors
 	url = https://github.com/vim-scripts/ScrollColors.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular
+[submodule "bundle/youcompleteme"]
+	path = bundle/youcompleteme
+	url = https://github.com/Valloric/YouCompleteMe.git

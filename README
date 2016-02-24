@@ -13,6 +13,7 @@ To initialize and update submodules:
 
 	git submodule init
 	git submodule update
+	git submodule update --init --recursive
 
 To upgrade all bundled plugins:
 
