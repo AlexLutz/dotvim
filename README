@@ -1,6 +1,12 @@
 Simple .vim folder with vimrc and gvimrc config files for easy use on multiple machines
 
+To clone repository:
+	
+	git clone https://github.com/AlexLutz/dotvim.git ~/.vim
+
 To create symbolic links:
 	
 	ln -s {/path/to/file-name} {link-name}
+	ln -s ~/.vim/vimrc ~/.vimrc
+	ls -s ~/.vim/gvimrc ~/.gvimrc
 
