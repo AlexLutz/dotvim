@@ -13,3 +13,15 @@
 [submodule "bundle/youcompleteme"]
 	path = bundle/youcompleteme
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/vim-commentary"]
+	path = bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips

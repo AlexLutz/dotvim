@@ -1,8 +1,6 @@
 execute pathogen#infect()
 let g:pathogen_disabled = []
 
-
-
 syntax on
 set t_Co=256
 colorscheme biogoo
@@ -13,6 +11,11 @@ set ruler
 set encoding=utf-8
 set number
 filetype plugin on
+
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
 
 "keyboard mappings
 map <C-Tab> gt
